@@ -1,0 +1,2 @@
+# savdo.uz
+API qilingan.
