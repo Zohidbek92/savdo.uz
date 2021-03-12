@@ -1,0 +1,9 @@
+RewriteEngine on
+
+RewriteBase /admin92
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule (?!web\/) index.php
+
